@@ -25,8 +25,8 @@ h1
   font-size: 72px
   line-height: 32px
   font-weight: 400
-  color: #ffffff
-
+  color: rgba(255, 255, 255, 0.85);
+  text-transform: uppercase
 h2
   font-family: 'CaveatBrush', sans-serif
   font-size: 56px
@@ -41,6 +41,12 @@ h3
   text-transform: uppercase
   color: #0b0c0d
 
+.main__text
+  font-size: 18px
+  line-height: 32px
+  font-weight: 400
+  color: #ffffff
+
 .container
   max-width: 1600px
   margin: 0 auto
@@ -49,8 +55,7 @@ h3
   padding: 0 150px
 
 .wrap-content
-  padding: 0 100px
-
+  padding: 120px 250px 0 250px
 
 .header
   width: 100%
@@ -85,3 +90,47 @@ h3
   color: rgba(255, 255, 255, .85)
   &:hover
     color: #962323
+
+.header__main
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-top: 320px
+
+.header__main-inner
+  text-align: center
+  max-width: 750px
+
+/* BLOCK OUR STORY */
+
+.our__story
+  width: 100%
+  min-height: 640px
+  background-color: #962323
+
+.our__story-content
+  display: flex
+  justify-content: space-between
+  align-items: center
+  & img
+    max-width: 440px
+    width: 100%
+    height: auto
+    box-shadow: 0 3px 10px 5px rgba(0, 0, 0, .35)
+
+.our__story-text
+  max-width: 510px
+  display: flex
+  flex-direction: column
+  align-items: center
+  & h2
+    margin-bottom: 50px
+  & h2:after
+    content: ""
+    display: block
+    margin-top: 30px
+    margin-left: 43px
+    width: 108px
+    height: 2px
+    background-color: #fff
+
