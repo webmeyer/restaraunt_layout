@@ -1,0 +1,87 @@
+@import "../css/fonts.css"
+@import "../css/normalize.css"
+@import "../css/responsive.css"
+@mixin image_rules
+  background-size: cover
+  background-position: center center
+  background-repeat: no-repeat
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+body
+  font-family: 'Livvic', sans-serif
+
+a
+  display: block
+  text-decoration: none
+
+ul, li
+  display: inline-block
+  list-style-type: none
+
+h1
+  font-size: 72px
+  line-height: 32px
+  font-weight: 400
+  color: #ffffff
+
+h2
+  font-family: 'CaveatBrush', sans-serif
+  font-size: 56px
+  line-height: 32px
+  font-weight: 400
+  color: #ffffff
+
+h3
+  font-size: 16px
+  line-height: 32px
+  font-weight: bold
+  text-transform: uppercase
+  color: #0b0c0d
+
+.container
+  max-width: 1600px
+  margin: 0 auto
+
+.wrapper
+  padding: 0 150px
+
+.wrap-content
+  padding: 0 100px
+
+
+.header
+  width: 100%
+  min-height: 950px
+  background-image: url("../img/bg_banner.jpg")
+  @include image_rules
+
+
+.header-shadow
+  width: 100%
+  min-height: 350px
+  background: linear-gradient(to top, rgba(0, 0 , 0, .9), rgba(255, 255, 255, .8))
+
+.header-inner
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding-top: 60px
+
+.header__logo a
+  font-family: 'Livvic', sans-serif
+  font-size: 31px
+  line-height: 32px
+  font-weight: 400
+  color: rgba(255, 255, 255, .7)
+
+.header__menu li+li
+  margin-left: 50px
+
+.header__menu a
+  font-size: 16px
+  color: rgba(255, 255, 255, .85)
+  &:hover
+    color: #962323

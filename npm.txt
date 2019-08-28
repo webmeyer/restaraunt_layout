@@ -1,0 +1,6 @@
+npm i --save -dev gulp
+npm init
+
+npm install node-sass gulp-sass --save-dev  -SASS-
+npm install --save-dev gulp-autoprefixer -AUTOPREFIXER-
+npm install --save-dev browser-sync -BROWSER_SYNC-
