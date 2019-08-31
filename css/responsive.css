@@ -1,11 +1,11 @@
 /* Landscape - телефоны */
-@media (max-width: 480px) { ... }
+@media (max-width: 480px) {}
 
 /* От ландшафтного экрана телефона до потретного планшета */
-@media (max-width: 767px) { ... }
+@media (max-width: 767px) {}
 
 /* От портретного планшета до ландшафтного экрана и настольных дисплеев */
-@media (min-width: 768px) and (max-width: 979px) { ... }
+@media (min-width: 768px) and (max-width: 979px) {}
 
 /* Большой дисплей */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {}
