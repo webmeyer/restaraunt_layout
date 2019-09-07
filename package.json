@@ -1,7 +1,6 @@
 {
   "name": "restaraunt",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^4.0.2"
@@ -24,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/R3re/restaraunt/issues"
   },
-  "homepage": "https://github.com/R3re/restaraunt#readme"
+  "homepage": "https://github.com/R3re/restaraunt#readme",
+  "description": ""
 }

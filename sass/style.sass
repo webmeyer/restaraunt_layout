@@ -1,6 +1,8 @@
 @import "../css/fonts.css"
 @import "../css/normalize.css"
 @import "../css/responsive.css"
+@import "../css/slick-theme.css"
+@import "../css/slick.css"
 @mixin image_rules
   background-size: cover
   background-position: center center
@@ -161,6 +163,8 @@ h3
     height: 3px
     background-color: #962323
 
+
+/* BLOCK-4 OUR MENU */
 .our__menu
   width: 100%
   min-height: 950px
@@ -221,7 +225,27 @@ h3
   align-items: center
 
 
-
+/* BLOCK-5 SLIDER */
 .food__slider
   width: 100%
-  margin-top: 60px
+
+.slider__info img
+  width: 100%
+  &:active
+    outline: none
+
+
+/* BLOCK-6 FOOTER */
+
+.footer
+  width: 100%
+  max-height: 445px
+
+.footer__bot
+  display: flex
+  justify-content: center
+  align-items: center
+  min-height: 122px
+  background-color: #16171b
+  & h3
+    color: #79797a
